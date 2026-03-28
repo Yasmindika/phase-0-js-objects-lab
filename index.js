@@ -7,11 +7,11 @@ let attendee = {
 }
 
 function logAttendeeName(attendee){
-  console.log(name);
+  console.log(attendee.name);
 }
 
 function logTicketPrice(attendee){
-  console.log(ticketPrice);
+  console.log(attendee.ticketPrice);
 }
 
 function updateTicketType(attendee, newTicketType){
